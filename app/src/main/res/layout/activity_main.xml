@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFFEB3B"
+    tools:context=".activity.MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#575757"
+        android:clickable="true"
+        android:tint="#000000"
+        app:backgroundTint="#000000"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#000000"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_janiero"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+        android:text="Janeiro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_fev"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_jul"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+        android:text="Julho"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_ago"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_may"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_may"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Maio"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_jun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_mar"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_ago"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Agosto"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_jul"
+        app:layout_constraintTop_toBottomOf="@+id/button_jun"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_mar"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Março"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_abr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_janiero"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Setembro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_out"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_jul"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_dez"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="dezembro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_nov"
+        app:layout_constraintTop_toBottomOf="@+id/button_out"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_jun"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Junho"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_may"
+        app:layout_constraintTop_toBottomOf="@+id/button_abr"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_out"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Outubro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_set"
+        app:layout_constraintTop_toBottomOf="@+id/button_ago"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_nov"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="novembro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_dez"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_set"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_fev"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Fevereiro"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_janiero"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button_abr"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9CFFEB3B"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text="Abril"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_mar"
+        app:layout_constraintTop_toBottomOf="@+id/button_fev"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:text="Planejamento Mensal"
+        android:textColor="#2B2B2B"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
